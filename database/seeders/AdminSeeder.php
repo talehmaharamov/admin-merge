@@ -12,17 +12,17 @@ class AdminSeeder extends Seeder
     {
         $admin = Admin::create([
             'name' => 'Admin',
-            'email' => 'admin@gurmanplyus.az',
+            'email' => 'admin@techfoz.az',
             'password' => '$2y$10$hcn0QuYc5NOiKrjaNMGNIeITHW3bzJ6UeTVWWg/1ZaFQ8eXX1Incm' //Password
         ]);
         $seo = Admin::create([
             'name' => 'SEO',
-            'email' => 'seo@gurmanplyus.az',
+            'email' => 'seo@techfoz.az',
             'password' => '$2y$10$hcn0QuYc5NOiKrjaNMGNIeITHW3bzJ6UeTVWWg/1ZaFQ8eXX1Incm' //Password
         ]);
         $developer = Admin::create([
             'name' => 'Developer',
-            'email' => 'developer@gurmanplyus.az',
+            'email' => 'developer@techfoz.az',
             'password' => '$2y$10$hcn0QuYc5NOiKrjaNMGNIeITHW3bzJ6UeTVWWg/1ZaFQ8eXX1Incm' //Password
         ]);
         $admin->givePermissionTo(Permission::all());

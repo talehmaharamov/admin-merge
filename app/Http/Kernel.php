@@ -45,7 +45,7 @@ class Kernel extends HttpKernel
         \App\Console\Commands\Models\MainModel::class,
         \App\Console\Commands\Models\TranslationModel::class,
         \App\Console\Commands\Models\PhotoModel::class,
-        \App\Console\Commands\lang\AddTranslationKey::class,
+        \App\Console\Commands\lang\AddTranslationKeyAndValue::class,
     ];
     protected $routeMiddleware = [
         'auth' => \App\Http\Middleware\Authenticate::class,
